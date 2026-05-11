@@ -87,4 +87,4 @@ The static export will be generated in the `out/` directory.
 
 ## 📄 License
 
-© 2025 Kozai Pty Ltd. All rights reserved.
+© 2026 Kozai Pvt Ltd. All rights reserved.
