@@ -31,7 +31,7 @@ export default function CTABanner() {
           Ready to reclaim 10 hours a week?
         </h2>
         <p className="text-lg text-white/80 mb-10 max-w-xl mx-auto">
-          Join the waitlist. We're onboarding Australian accounting firms now.
+          Join the waitlist. We&apos;re onboarding Australian accounting firms now.
         </p>
 
         {submitted ? (
@@ -39,8 +39,8 @@ export default function CTABanner() {
             <svg className="w-12 h-12 text-white mx-auto mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
             </svg>
-            <p className="text-white font-semibold">You're on the list!</p>
-            <p className="text-white/70 text-sm mt-1">We'll be in touch soon.</p>
+            <p className="text-white font-semibold">You&apos;re on the list!</p>
+            <p className="text-white/70 text-sm mt-1">We&apos;ll be in touch soon.</p>
           </div>
         ) : (
           <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto">

@@ -1,5 +1,7 @@
 "use client";
 
+import Image from "next/image"
+
 import { useState, useEffect } from "react";
 import { navLinks } from "@/lib/constants";
 import Button from "./ui/Button";
@@ -7,7 +9,7 @@ import Button from "./ui/Button";
 function Logo() {
   return (
     <a href="#" className="flex items-center gap-2.5">
-      <img src="/logo.svg" alt="KOZAI" width="54" height="44" />
+      <Image src="/logo.svg" alt="KOZAI" width="54" height="44" priority/>
       <span className="text-xl font-bold tracking-tight text-[#1A1A1A]">
         KOZAI
       </span>

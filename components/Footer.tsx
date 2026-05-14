@@ -1,4 +1,4 @@
-import { navLinks } from "@/lib/constants";
+import Image from "next/image"
 
 const footerLinks = {
   Product: ["Features", "How it Works", "Pricing", "Integrations"],
@@ -10,7 +10,7 @@ const footerLinks = {
 function Logo() {
   return (
     <a href="#" className="flex items-center gap-2.5">
-      <img src="/logo.svg" alt="KOZAI" width="54" height="44" />
+      <Image src="/logo.svg" alt="KOZAI" width="54" height="44" priority/>
       <span className="text-xl font-bold tracking-tight text-[#1A1A1A]">
         KOZAI
       </span>
